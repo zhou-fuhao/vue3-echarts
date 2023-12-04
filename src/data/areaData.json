@@ -1,0 +1,187 @@
+{
+  "avg": 65.472596,
+  "details": [
+    {
+      "key": "黑吉战区",
+      "value": 35.291250,
+      "rank": 1,
+      "own": false,
+      "region": "东北大区"
+    },
+    {
+      "key": "重庆战区",
+      "value": 39.213750,
+      "rank": 2,
+      "own": false,
+      "region": "西南大区"
+    },
+    {
+      "key": "江苏战区",
+      "value": 42.202500,
+      "rank": 3,
+      "own": false,
+      "region": "华东大区"
+    },
+    {
+      "key": "安徽战区",
+      "value": 43.010000,
+      "rank": 4,
+      "own": false,
+      "region": "华东大区"
+    },
+    {
+      "key": "新疆战区",
+      "value": 43.235000,
+      "rank": 5,
+      "own": false,
+      "region": "西北大区"
+    },
+    {
+      "key": "川藏战区",
+      "value": 45.735000,
+      "rank": 6,
+      "own": false,
+      "region": "西南大区"
+    },
+    {
+      "key": "陕西战区",
+      "value": 51.385000,
+      "rank": 7,
+      "own": false,
+      "region": "西北大区"
+    },
+    {
+      "key": "内蒙古战区",
+      "value": 52.885000,
+      "rank": 8,
+      "own": false,
+      "region": "华北大区"
+    },
+    {
+      "key": "河南战区",
+      "value": 56.217500,
+      "rank": 9,
+      "own": false,
+      "region": "中东大区"
+    },
+    {
+      "key": "云贵战区",
+      "value": 58.028750,
+      "rank": 10,
+      "own": false,
+      "region": "东北大区"
+    },
+    {
+      "key": "山东战区",
+      "value": 58.613750,
+      "rank": 11,
+      "own": false,
+      "region": "中东大区"
+    },
+    {
+      "key": "甘青宁战区",
+      "value": 60.466250,
+      "rank": 12,
+      "own": false,
+      "region": "西北大区"
+    },
+    {
+      "key": "浙江战区",
+      "value": 69.202500,
+      "rank": 13,
+      "own": false,
+      "region": "东南大区"
+    },
+    {
+      "key": "河北战区",
+      "value": 69.382500,
+      "rank": 14,
+      "own": false,
+      "region": "华北大区"
+    },
+    {
+      "key": "山西战区",
+      "value": 70.381250,
+      "rank": 15,
+      "own": false,
+      "region": "华北大区"
+    },
+    {
+      "key": "福建战区",
+      "value": 72.136250,
+      "rank": 16,
+      "own": false,
+      "region": "东南大区"
+    },
+    {
+      "key": "天津战区",
+      "value": 72.912500,
+      "rank": 17,
+      "own": false,
+      "region": "华北大区"
+    },
+    {
+      "key": "广东战区",
+      "value": 75.721250,
+      "rank": 18,
+      "own": false,
+      "region": "华南大区"
+    },
+    {
+      "key": "湖北战区",
+      "value": 80.562500,
+      "rank": 19,
+      "own": false,
+      "region": "中东大区"
+    },
+    {
+      "key": "江西战区",
+      "value": 81.196250,
+      "rank": 20,
+      "own": false,
+      "region": "东南大区"
+    },
+    {
+      "key": "湖南战区",
+      "value": 82.700000,
+      "rank": 21,
+      "own": false,
+      "region": "中东大区"
+    },
+    {
+      "key": "北京战区",
+      "value": 82.742500,
+      "rank": 22,
+      "own": false,
+      "region": "华北大区"
+    },
+    {
+      "key": "辽宁战区",
+      "value": 84.858750,
+      "rank": 23,
+      "own": false,
+      "region": "东北大区"
+    },
+    {
+      "key": "上海战区",
+      "value": 87.230000,
+      "rank": 24,
+      "own": false,
+      "region": "华东大区"
+    },
+    {
+      "key": "广西战区",
+      "value": 91.216250,
+      "rank": 25,
+      "own": false,
+      "region": "华南大区"
+    },
+    {
+      "key": "深琼战区",
+      "value": 95.761250,
+      "rank": 26,
+      "own": false,
+      "region": "华南大区"
+    }
+  ]
+}

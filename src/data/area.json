@@ -1,0 +1,341 @@
+[
+  {
+    "areaCode": null,
+    "areaName": "全部",
+    "areaType": "region",
+    "selected": true,
+    "children": null
+  },
+  {
+    "areaCode": "R1002",
+    "areaName": "东北大区",
+    "areaType": "region",
+    "selected": false,
+    "children": [
+      {
+        "areaCode": null,
+        "areaName": "全部",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2020",
+        "areaName": "黑吉战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2043",
+        "areaName": "辽宁战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      }
+    ]
+  },
+  {
+    "areaCode": "R1003",
+    "areaName": "华北大区",
+    "areaType": "region",
+    "selected": false,
+    "children": [
+      {
+        "areaCode": null,
+        "areaName": "全部",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2137",
+        "areaName": "北京战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2138",
+        "areaName": "河北战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2139",
+        "areaName": "天津战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2140",
+        "areaName": "内蒙古战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2141",
+        "areaName": "山西战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      }
+    ]
+  },
+  {
+    "areaCode": "R1004",
+    "areaName": "中东大区",
+    "areaType": "region",
+    "selected": false,
+    "children": [
+      {
+        "areaCode": null,
+        "areaName": "全部",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2015",
+        "areaName": "山东战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2037",
+        "areaName": "河南战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2095",
+        "areaName": "湖南战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2096",
+        "areaName": "湖北战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      }
+    ]
+  },
+  {
+    "areaCode": "R1005",
+    "areaName": "华东大区",
+    "areaType": "region",
+    "selected": false,
+    "children": [
+      {
+        "areaCode": null,
+        "areaName": "全部",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2009",
+        "areaName": "江苏战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2031",
+        "areaName": "上海战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2034",
+        "areaName": "安徽战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      }
+    ]
+  },
+  {
+    "areaCode": "R1006",
+    "areaName": "东南大区",
+    "areaType": "region",
+    "selected": false,
+    "children": [
+      {
+        "areaCode": null,
+        "areaName": "全部",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2028",
+        "areaName": "浙江战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2135",
+        "areaName": "福建战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2136",
+        "areaName": "江西战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      }
+    ]
+  },
+  {
+    "areaCode": "R1007",
+    "areaName": "华南大区",
+    "areaType": "region",
+    "selected": false,
+    "children": [
+      {
+        "areaCode": null,
+        "areaName": "全部",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2025",
+        "areaName": "深琼战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2142",
+        "areaName": "广东战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2143",
+        "areaName": "广西战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      }
+    ]
+  },
+  {
+    "areaCode": "R1008",
+    "areaName": "西北大区",
+    "areaType": "region",
+    "selected": false,
+    "children": [
+      {
+        "areaCode": null,
+        "areaName": "全部",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2053",
+        "areaName": "陕西战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2144",
+        "areaName": "甘青宁战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2145",
+        "areaName": "新疆战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      }
+    ]
+  },
+  {
+    "areaCode": "R1009",
+    "areaName": "西南大区",
+    "areaType": "region",
+    "selected": false,
+    "children": [
+      {
+        "areaCode": null,
+        "areaName": "全部",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2146",
+        "areaName": "川藏战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2147",
+        "areaName": "重庆战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      },
+      {
+        "areaCode": "R2261",
+        "areaName": "西南战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      }
+    ]
+  },
+  {
+    "areaCode": "R1001",
+    "areaName": "中央大区",
+    "areaType": "region",
+    "selected": false,
+    "children": [
+      {
+        "areaCode": "R2047",
+        "areaName": "中央战区",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      }
+    ]
+  },
+  {
+    "areaCode": "R1777",
+    "areaName": "GAB",
+    "areaType": "region",
+    "selected": false,
+    "children": [
+      {
+        "areaCode": "R2777",
+        "areaName": "GAB",
+        "areaType": "fightingregion",
+        "selected": false,
+        "children": null
+      }
+    ]
+  }
+]

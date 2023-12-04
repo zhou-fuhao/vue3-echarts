@@ -1,0 +1,36 @@
+{
+	"keyList": [{
+			"key": "key0",
+			"value": "1"
+		},
+		{
+			"key": "key1",
+			"value": "2"
+		},
+		{
+			"key": "key2",
+			"value": "3"
+		},
+		{
+			"key": "key3",
+			"value": "4"
+		}
+	],
+	"detailList": [{
+			"key0": 26,
+			"name": "1"
+		},
+		{
+			"key1": 22,
+			"name": "2"
+		},
+		{
+			"key2": 14,
+			"name": "3"
+		},
+		{
+			"key3": 18,
+			"name": "4"
+		}
+	]
+}

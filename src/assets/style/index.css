@@ -1,3 +1,7 @@
 .app-echarts {
   height: calc(100vh - 20px);
 }
+
+.pub-w120 {
+  width: 120px;
+}
