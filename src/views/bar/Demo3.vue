@@ -14,11 +14,7 @@
     <v-chart class="app-echarts" :option="option2" autoresize v-else />
 
     <a-modal v-model:visible="visible" title="" @ok="handleOk" ok-text="去试试" cancel-text="取消">
-      <a-result title="点击柱状图及阴影均可下钻">
-        <template #icon>
-          <smile-twoTone />
-        </template>
-      </a-result>
+      <v-empty title="点击柱状图及阴影均可下钻" />
     </a-modal>
   </div>
 </template>

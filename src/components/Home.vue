@@ -1,6 +1,6 @@
 <template>
-  <a-layout style="min-height: 100vh" id="components-layout-demo-side">
-    <a-layout-sider v-model:collapsed="collapsed" collapsible>
+  <a-layout class="app-home">
+    <a-layout-sider class="app-home-sider" v-model:collapsed="collapsed" collapsible>
       <a-menu theme="dark" v-model:selectedKeys="selectedKeys" mode="inline">
         <a-sub-menu v-for="item in menuData" :key="item.key">
           <template #title>
@@ -16,7 +16,7 @@
         </a-sub-menu>
       </a-menu>
     </a-layout-sider>
-    <a-layout>
+    <a-layout class="app-home-content">
       <router-view></router-view>
     </a-layout>
   </a-layout>
@@ -99,12 +99,40 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-.site-layout .site-layout-background {
-  background: #fff;
-}
+<style lang="less" scoped>
+.app-home {
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
 
-[data-theme='dark'] .site-layout .site-layout-background {
-  background: #141414;
+  [data-theme='dark'] .site-layout .site-layout-background {
+    background: #141414;
+  }
+
+  &-sider {
+    overflow: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+  }
+
+
+  &-content {
+    margin-left: 200px;
+  }
+
+  &-sider::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &-sider::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  &-sider::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+  }
 }
 </style>

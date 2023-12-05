@@ -12,11 +12,7 @@
     <v-chart class="app-echarts" :option="chartOption" autoresize />
 
     <a-modal v-model:visible="visible" title="" @ok="handleOk" ok-text="去试试" cancel-text="取消">
-      <a-result title="根据搜索结果高亮柱状图" sub-title="柱状图颜色渐变">
-        <template #icon>
-          <smile-twoTone />
-        </template>
-      </a-result>
+      <v-empty title="根据搜索结果高亮柱状图" sub-title="柱状图颜色渐变" />
     </a-modal>
   </div>
 </template>

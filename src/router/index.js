@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../components/Home.vue";
+import Empty from "../components/Empty.vue";
 import BarDemo1 from "../views/bar/Demo1.vue";
 import BarDemo2 from "../views/bar/Demo2.vue";
 import BarDemo3 from "../views/bar/Demo3.vue";
@@ -9,6 +10,8 @@ import PieDemo3 from "../views/pie/Demo3.vue";
 import PieDemo4 from "../views/pie/Demo4.vue";
 import PieDemo5 from "../views/pie/Demo5.vue";
 import PieDemo6 from "../views/pie/Demo6.vue";
+import LineDemo1 from "../views/line/Demo1.vue";
+import LineDemo2 from "../views/line/Demo2.vue";
 
 const routes = [
   {
@@ -70,6 +73,19 @@ const routes = [
         component: PieDemo6,
         meta: { title: "饼图" },
       },
+      {
+        path: "/line-demo1",
+        name: LineDemo1,
+        component: LineDemo1,
+        meta: { title: "折线图" },
+      },
+      {
+        path: "/line-demo2",
+        name: LineDemo2,
+        component: LineDemo2,
+        meta: { title: "折线图" },
+      },
+      { path: "/empty", component: Empty },
     ],
   },
 ];
@@ -88,5 +104,10 @@ router.beforeEach((to, from, next) => {
   } else {
     document.title = "vue3-echarts";
   }
-  next();
+
+  if (to.matched.length === 0) {
+    next("/empty");
+  } else {
+    next();
+  }
 });

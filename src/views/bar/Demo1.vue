@@ -3,11 +3,7 @@
   <v-chart class="app-echarts" :option="option" autoresize />
 
   <a-modal v-model:visible="visible" title="" @ok="handleOk" ok-text="去试试" cancel-text="取消">
-    <a-result title="数据过多时增加滚动条以及鼠标拖动滚动条功能">
-      <template #icon>
-        <smile-twoTone />
-      </template>
-    </a-result>
+    <v-empty title="数据过多时增加滚动条以及鼠标拖动滚动条功能" />
   </a-modal>
 </template>
 
