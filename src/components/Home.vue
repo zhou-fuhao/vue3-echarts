@@ -25,6 +25,7 @@
 <script>
 import { defineComponent, ref } from 'vue';
 import { createFromIconfontCN } from '@ant-design/icons-vue';
+import lodash from 'lodash';
 
 // 常用的话可以挂载到全局
 const IconFont = createFromIconfontCN({
@@ -44,98 +45,55 @@ export default defineComponent({
           key: '1',
           title: '折线图',
           titleEn: 'line',
-          children: [
-            {
-              key: '11',
-              title: 'demo1',
-              titleEn: 'demo1',
-              children: []
-            }
-          ]
         },
         {
           key: '2',
           title: '柱状图',
           titleEn: 'bar',
-          children: [
-            {
-              key: '21',
-              title: 'demo1',
-              titleEn: 'demo1',
-              children: []
-            },
-            {
-              key: '22',
-              title: 'demo2',
-              titleEn: 'demo2',
-              children: []
-            },
-            {
-              key: '23',
-              title: 'demo3',
-              titleEn: 'demo3',
-              children: []
-            },
-          ]
         },
         {
           key: '3',
           title: '饼图',
           titleEn: 'pie',
-          children: [
-            {
-              key: '31',
-              title: 'demo1',
-              titleEn: 'demo1',
-              children: []
-            }
-          ]
         },
         {
           key: '4',
           title: '雷达图',
           titleEn: 'radar',
-          children: [
-            {
-              key: '41',
-              title: 'demo41',
-              titleEn: 'demo1',
-              children: []
-            }
-          ]
         },
         {
           key: '5',
           title: '漏斗图',
           titleEn: 'funnel',
-          children: [
-            {
-              key: '51',
-              title: 'demo51',
-              titleEn: 'demo1',
-              children: []
-            }
-          ]
         },
         {
           key: '6',
           title: '仪表盘',
           titleEn: 'gauge',
-          children: [
-            {
-              key: '61',
-              title: 'demo61',
-              titleEn: 'demo1',
-              children: []
-            }
-          ]
         },
       ])
     };
   },
+  created() {
+    this.menuData = lodash.map(this.menuData, item => {
+      return { ...item, children: this.menuChildren(item) }
+    })
+  },
   methods: {
     onMenu(prefix, suffix) {
       this.$router.push(`${prefix}-${suffix}`);
+    },
+    menuChildren(item) {
+      const children = [];
+      for (let i = 1; i <= 10; i++) {
+        children.push({
+          key: `${item.key}${i}`,
+          title: `demo${item.key}${i}`,
+          titleEn: `demo${i}`,
+          children: []
+        })
+      }
+      return children;
     }
   }
 });

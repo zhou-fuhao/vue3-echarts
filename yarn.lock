@@ -485,7 +485,12 @@
   "resolved" "https://registry.npmjs.org/dom-scroll-into-view/-/dom-scroll-into-view-2.0.1.tgz"
   "version" "2.0.1"
 
-"echarts@^5.4.1", "echarts@^5.4.3":
+"echarts-liquidfill@^3.1.0":
+  "integrity" "sha512-5Dlqs/jTsdTUAsd+K5LPLLTgrbbNORUSBQyk8PSy1Mg2zgHDWm83FmvA4s0ooNepCJojFYRITTQ4GU1UUSKYLw=="
+  "resolved" "https://registry.npmjs.org/echarts-liquidfill/-/echarts-liquidfill-3.1.0.tgz"
+  "version" "3.1.0"
+
+"echarts@^5.0.1", "echarts@^5.4.1", "echarts@^5.4.3":
   "integrity" "sha512-mYKxLxhzy6zyTi/FaEbJMOZU1ULGEQHaeIeuMR5L+JnJTpz+YR03mnnpBhbR4+UYJAgiXgpyTVLffPAjOTLkZA=="
   "resolved" "https://registry.npmjs.org/echarts/-/echarts-5.4.3.tgz"
   "version" "5.4.3"

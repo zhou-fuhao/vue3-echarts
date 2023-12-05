@@ -1,0 +1,18 @@
+{
+	"sex": [{
+			"name": "男",
+			"value": 101,
+			"children": null
+		},
+		{
+			"name": "女",
+			"value": 111,
+			"children": null
+		},
+		{
+			"name": "未知",
+			"value": 361,
+			"children": null
+		}
+	]
+}

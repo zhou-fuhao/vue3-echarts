@@ -5,3 +5,7 @@
 .pub-w120 {
   width: 120px;
 }
+
+.d-flex {
+  display: flex;
+}

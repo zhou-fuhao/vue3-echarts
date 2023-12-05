@@ -1,11 +1,13 @@
 
 <template>
   <div class="app-bar-demo3">
-    <a-breadcrumb>
+    <div class="d-flex">
       <span class="tips">（点击柱状图及阴影均可下钻）</span>当前位置：
-      <a-breadcrumb-item @click="onBreadcrumb" class="breadcrumb">Home</a-breadcrumb-item>
-      <a-breadcrumb-item>{{ breadcrumbName ? breadcrumbName : '点击柱状图试下?' }}</a-breadcrumb-item>
-    </a-breadcrumb>
+      <a-breadcrumb>
+        <a-breadcrumb-item @click="onBreadcrumb" class="breadcrumb">Home</a-breadcrumb-item>
+        <a-breadcrumb-item>{{ breadcrumbName ? breadcrumbName : '点击柱状图试下?' }}</a-breadcrumb-item>
+      </a-breadcrumb>
+    </div>
     <!-- @zr:click 方法是一个图标区域内任意位置点击的事件监听 -->
     <v-chart class="app-echarts" :option="option" ref="barDemo3" autoresize @click="clickBarInBarChart"
       @zr:click="handleZrClick" v-if="!isDrillingIn" />
