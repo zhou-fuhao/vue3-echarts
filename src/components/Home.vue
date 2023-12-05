@@ -5,7 +5,7 @@
         <a-sub-menu v-for="item in menuData" :key="item.key">
           <template #title>
             <span>
-              <icon-font type="icon-weixin" />
+              <icon-font :type="'icon-' + item.icon" />
               <span>{{ item.title }}</span>
             </span>
           </template>
@@ -29,7 +29,7 @@ import lodash from 'lodash';
 
 // 常用的话可以挂载到全局
 const IconFont = createFromIconfontCN({
-  scriptUrl: '//at.alicdn.com/t/c/font_4355069_liobch4ta2h.js',
+  scriptUrl: '/src/assets/font/iconfont.js',
 });
 
 export default defineComponent({
@@ -45,31 +45,37 @@ export default defineComponent({
           key: '1',
           title: '折线图',
           titleEn: 'line',
+          icon: 'zhexiantu',
         },
         {
           key: '2',
           title: '柱状图',
           titleEn: 'bar',
+          icon: 'zhuzhuangtu',
         },
         {
           key: '3',
           title: '饼图',
           titleEn: 'pie',
+          icon: 'bingtu',
         },
         {
           key: '4',
           title: '雷达图',
           titleEn: 'radar',
+          icon: 'leidatu',
         },
         {
           key: '5',
           title: '漏斗图',
           titleEn: 'funnel',
+          icon: 'loudoutu',
         },
         {
           key: '6',
           title: '仪表盘',
           titleEn: 'gauge',
+          icon: 'yibiaopan',
         },
       ])
     };
