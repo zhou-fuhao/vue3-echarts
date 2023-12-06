@@ -12,6 +12,7 @@ import PieDemo5 from "../views/pie/Demo5.vue";
 import PieDemo6 from "../views/pie/Demo6.vue";
 import LineDemo1 from "../views/line/Demo1.vue";
 import LineDemo2 from "../views/line/Demo2.vue";
+import CustomDemo1 from "../views/custom/Demo1.vue";
 
 const routes = [
   {
@@ -85,7 +86,17 @@ const routes = [
         component: LineDemo2,
         meta: { title: "折线图" },
       },
-      { path: "/empty", component: Empty },
+      {
+        path: "/custom-demo1",
+        name: CustomDemo1,
+        component: CustomDemo1,
+        meta: { title: "自定义" },
+      },
+      {
+        path: "/empty",
+        name: Empty,
+        component: Empty,
+      },
     ],
   },
 ];

@@ -6,14 +6,14 @@ import ECharts from "vue-echarts";
 import Antd from "ant-design-vue";
 import "ant-design-vue/dist/antd.css";
 import "./assets/style/index.css";
-
-import Empty from "./components/Empty.vue";
+// 全局挂载所有自定义组件
+import { components } from "./components/basic/index.js";
 
 const app = createApp(App);
 
 app.component("v-chart", ECharts);
-app.component("v-empty", Empty);
 
+app.use(components);
 app.use(router);
 app.use(Antd);
 

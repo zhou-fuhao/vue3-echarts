@@ -77,6 +77,12 @@ export default defineComponent({
           titleEn: 'gauge',
           icon: 'yibiaopan',
         },
+        {
+          key: '7',
+          title: '自定义',
+          titleEn: 'custom',
+          icon: 'V',
+        },
       ])
     };
   },

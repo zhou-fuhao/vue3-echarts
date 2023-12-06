@@ -9,7 +9,6 @@
 
 <script setup>
 import { ref } from 'vue';
-import { SmileTwoTone } from '@ant-design/icons-vue';
 import lodash from 'lodash';
 import trendData from '../../data/trendData.json';
 

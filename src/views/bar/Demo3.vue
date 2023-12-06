@@ -21,7 +21,6 @@
 
 <script setup>
 import { ref, getCurrentInstance } from 'vue';
-import { SmileTwoTone } from '@ant-design/icons-vue';
 import lodash from 'lodash';
 import scoreData from '../../data/scoreData.json';
 

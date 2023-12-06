@@ -19,7 +19,6 @@
 
 <script setup>
 import { ref } from 'vue';
-import { SmileTwoTone } from '@ant-design/icons-vue';
 import * as echarts from 'echarts';
 import lodash from 'lodash';
 import area from '../../data/area.json';
